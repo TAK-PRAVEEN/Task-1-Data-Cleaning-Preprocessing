@@ -22,8 +22,8 @@ Categorical variables need to be converted into a numerical format for most mach
 
 **3. What is the difference between normalization and standardization?**
 
-- Normalization (Min-Max Scaling): Rescales the values of a numerical feature to a range between 0 and 1. The formula is: $$ X_{normalized} = (X - X_{min})/(X_{max} - X_{min}) $$ This is useful when you need to constrain values to a specific range and is often used with algorithms that don't assume a normal distribution, like K-Nearest Neighbors.
-- Standardization (Z-Score Scaling): Rescales the values to have a mean of 0 and a standard deviation of 1. The formula is: $$ X_{standardized} = (X − μ)/σ $$ This is particularly useful for algorithms that assume a normal distribution of the data, such as Linear Regression, Logistic Regression, and Support Vector Machines.
+- Normalization (Min-Max Scaling): Rescales the values of a numerical feature to a range between 0 and 1. The formula is: $$X_{normalized} = (X - X_{min})/(X_{max} - X_{min})$$ This is useful when you need to constrain values to a specific range and is often used with algorithms that don't assume a normal distribution, like K-Nearest Neighbors.
+- Standardization (Z-Score Scaling): Rescales the values to have a mean of 0 and a standard deviation of 1. The formula is: $$X_{standardized} = (X − μ)/σ$$ This is particularly useful for algorithms that assume a normal distribution of the data, such as Linear Regression, Logistic Regression, and Support Vector Machines.
 
 ---
 
